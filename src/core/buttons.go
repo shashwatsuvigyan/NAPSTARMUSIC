@@ -98,7 +98,7 @@ func ControlButtons(mode string) *telegram.ReplyInlineMarkup {
 	resumeBtn := telegram.Button.Data("▷", "play_resume")
 	muteBtn := telegram.Button.Data("🔇", "play_mute")
 	unmuteBtn := telegram.Button.Data("🔊", "play_unmute")
-	addToPlaylistBtn := telegram.Button.Data("➕", "play_add_to_list")
+	addToPlaylistBtn := telegram.Button.Data("✨", "play_add_to_list")
 
 	var keyboard *telegram.KeyboardBuilder
 
